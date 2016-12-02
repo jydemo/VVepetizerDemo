@@ -12,6 +12,18 @@
 		5CB60E221DF15EE200C8C5EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB60E201DF15EE200C8C5EC /* Main.storyboard */; };
 		5CB60E241DF15EE200C8C5EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB60E231DF15EE200C8C5EC /* Assets.xcassets */; };
 		5CB60E271DF15EE200C8C5EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB60E251DF15EE200C8C5EC /* LaunchScreen.storyboard */; };
+		5CB60E301DF15F1300C8C5EC /* VVMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E2F1DF15F1300C8C5EC /* VVMainViewController.swift */; };
+		5CB60E331DF161C000C8C5EC /* VVLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E321DF161C000C8C5EC /* VVLaunchView.swift */; };
+		5CB60E351DF161DA00C8C5EC /* VVLaunchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB60E341DF161DA00C8C5EC /* VVLaunchView.xib */; };
+		5CB60E3F1DF16DA600C8C5EC /* VVBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E3E1DF16DA600C8C5EC /* VVBaseViewController.swift */; };
+		5CB60E411DF16DDE00C8C5EC /* VVChoiceContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E401DF16DDE00C8C5EC /* VVChoiceContrller.swift */; };
+		5CB60E431DF16E1D00C8C5EC /* VVDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E421DF16E1D00C8C5EC /* VVDiscoverController.swift */; };
+		5CB60E451DF16E3B00C8C5EC /* VVPopularController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E441DF16E3B00C8C5EC /* VVPopularController.swift */; };
+		5CB60E471DF16E9F00C8C5EC /* VVNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E461DF16E9F00C8C5EC /* VVNavigationController.swift */; };
+		5CB60E4A1DF16FF300C8C5EC /* UIFont+VV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E491DF16FF300C8C5EC /* UIFont+VV.swift */; };
+		5CB60E4D1DF1709200C8C5EC /* VVConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E4C1DF1709200C8C5EC /* VVConstant.swift */; };
+		5CB60E4F1DF175C500C8C5EC /* VVVideoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E4E1DF175C500C8C5EC /* VVVideoDetailController.swift */; };
+		5CB60E521DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E511DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		5CB60E231DF15EE200C8C5EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB60E261DF15EE200C8C5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CB60E281DF15EE200C8C5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB60E2F1DF15F1300C8C5EC /* VVMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVMainViewController.swift; sourceTree = "<group>"; };
+		5CB60E321DF161C000C8C5EC /* VVLaunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVLaunchView.swift; sourceTree = "<group>"; };
+		5CB60E341DF161DA00C8C5EC /* VVLaunchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VVLaunchView.xib; sourceTree = "<group>"; };
+		5CB60E3E1DF16DA600C8C5EC /* VVBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVBaseViewController.swift; sourceTree = "<group>"; };
+		5CB60E401DF16DDE00C8C5EC /* VVChoiceContrller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVChoiceContrller.swift; sourceTree = "<group>"; };
+		5CB60E421DF16E1D00C8C5EC /* VVDiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVDiscoverController.swift; sourceTree = "<group>"; };
+		5CB60E441DF16E3B00C8C5EC /* VVPopularController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVPopularController.swift; sourceTree = "<group>"; };
+		5CB60E461DF16E9F00C8C5EC /* VVNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVNavigationController.swift; sourceTree = "<group>"; };
+		5CB60E491DF16FF300C8C5EC /* UIFont+VV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+VV.swift"; sourceTree = "<group>"; };
+		5CB60E4C1DF1709200C8C5EC /* VVConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVConstant.swift; sourceTree = "<group>"; };
+		5CB60E4E1DF175C500C8C5EC /* VVVideoDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVVideoDetailController.swift; sourceTree = "<group>"; };
+		5CB60E511DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVVideoDetailPushTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,11 @@
 		5CB60E1B1DF15EE200C8C5EC /* VVepetizerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5CB60E501DF1760E00C8C5EC /* Other */,
+				5CB60E4B1DF1707700C8C5EC /* Constant */,
+				5CB60E481DF16FD600C8C5EC /* Extensions */,
+				5CB60E311DF1619C00C8C5EC /* Views */,
+				5CB60E2E1DF15EF300C8C5EC /* Controllers */,
 				5CB60E1C1DF15EE200C8C5EC /* AppDelegate.swift */,
 				5CB60E1E1DF15EE200C8C5EC /* ViewController.swift */,
 				5CB60E201DF15EE200C8C5EC /* Main.storyboard */,
@@ -62,6 +91,117 @@
 				5CB60E281DF15EE200C8C5EC /* Info.plist */,
 			);
 			path = VVepetizerDemo;
+			sourceTree = "<group>";
+		};
+		5CB60E2E1DF15EF300C8C5EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E3D1DF16D7000C8C5EC /* ViedeoController */,
+				5CB60E3C1DF16D6200C8C5EC /* PopularViewController */,
+				5CB60E3B1DF16D5500C8C5EC /* PlayViewController */,
+				5CB60E3A1DF16D4600C8C5EC /* NavigationViewController */,
+				5CB60E391DF16D3900C8C5EC /* MenuViewController */,
+				5CB60E381DF16C2400C8C5EC /* DiscoverController */,
+				5CB60E371DF16C1000C8C5EC /* ChoiceController */,
+				5CB60E361DF16C0300C8C5EC /* BaseViewController */,
+				5CB60E2F1DF15F1300C8C5EC /* VVMainViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5CB60E311DF1619C00C8C5EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E321DF161C000C8C5EC /* VVLaunchView.swift */,
+				5CB60E341DF161DA00C8C5EC /* VVLaunchView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5CB60E361DF16C0300C8C5EC /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E3E1DF16DA600C8C5EC /* VVBaseViewController.swift */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		5CB60E371DF16C1000C8C5EC /* ChoiceController */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E401DF16DDE00C8C5EC /* VVChoiceContrller.swift */,
+			);
+			name = ChoiceController;
+			sourceTree = "<group>";
+		};
+		5CB60E381DF16C2400C8C5EC /* DiscoverController */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E421DF16E1D00C8C5EC /* VVDiscoverController.swift */,
+			);
+			name = DiscoverController;
+			sourceTree = "<group>";
+		};
+		5CB60E391DF16D3900C8C5EC /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MenuViewController;
+			sourceTree = "<group>";
+		};
+		5CB60E3A1DF16D4600C8C5EC /* NavigationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E461DF16E9F00C8C5EC /* VVNavigationController.swift */,
+			);
+			name = NavigationViewController;
+			sourceTree = "<group>";
+		};
+		5CB60E3B1DF16D5500C8C5EC /* PlayViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PlayViewController;
+			sourceTree = "<group>";
+		};
+		5CB60E3C1DF16D6200C8C5EC /* PopularViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E441DF16E3B00C8C5EC /* VVPopularController.swift */,
+			);
+			name = PopularViewController;
+			sourceTree = "<group>";
+		};
+		5CB60E3D1DF16D7000C8C5EC /* ViedeoController */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E4E1DF175C500C8C5EC /* VVVideoDetailController.swift */,
+			);
+			name = ViedeoController;
+			sourceTree = "<group>";
+		};
+		5CB60E481DF16FD600C8C5EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E491DF16FF300C8C5EC /* UIFont+VV.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		5CB60E4B1DF1707700C8C5EC /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E4C1DF1709200C8C5EC /* VVConstant.swift */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		5CB60E501DF1760E00C8C5EC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E511DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +267,7 @@
 				5CB60E271DF15EE200C8C5EC /* LaunchScreen.storyboard in Resources */,
 				5CB60E241DF15EE200C8C5EC /* Assets.xcassets in Resources */,
 				5CB60E221DF15EE200C8C5EC /* Main.storyboard in Resources */,
+				5CB60E351DF161DA00C8C5EC /* VVLaunchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +278,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB60E4A1DF16FF300C8C5EC /* UIFont+VV.swift in Sources */,
+				5CB60E4D1DF1709200C8C5EC /* VVConstant.swift in Sources */,
+				5CB60E3F1DF16DA600C8C5EC /* VVBaseViewController.swift in Sources */,
 				5CB60E1F1DF15EE200C8C5EC /* ViewController.swift in Sources */,
+				5CB60E431DF16E1D00C8C5EC /* VVDiscoverController.swift in Sources */,
+				5CB60E411DF16DDE00C8C5EC /* VVChoiceContrller.swift in Sources */,
+				5CB60E4F1DF175C500C8C5EC /* VVVideoDetailController.swift in Sources */,
+				5CB60E301DF15F1300C8C5EC /* VVMainViewController.swift in Sources */,
 				5CB60E1D1DF15EE200C8C5EC /* AppDelegate.swift in Sources */,
+				5CB60E331DF161C000C8C5EC /* VVLaunchView.swift in Sources */,
+				5CB60E451DF16E3B00C8C5EC /* VVPopularController.swift in Sources */,
+				5CB60E471DF16E9F00C8C5EC /* VVNavigationController.swift in Sources */,
+				5CB60E521DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
