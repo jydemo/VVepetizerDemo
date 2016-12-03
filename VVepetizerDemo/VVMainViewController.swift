@@ -17,7 +17,7 @@ class VVMainViewController: UITabBarController {
         
         //delegate = self
         
-        //tabBar.addSubview()
+        tabBar.addSubview(tabView)
         
         addChildVC()
         
@@ -78,6 +78,32 @@ class VVMainViewController: UITabBarController {
         }
     
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        for button in self.tabBar.subviews {
+            
+            if button is UIControl {
+            
+                button.removeFromSuperview()
+            
+            }
+        
+        }
+    }
+    
+    fileprivate lazy var tabView: VVMainTabView = {
+    
+        var tabView: VVMainTabView = VVMainTabView.tabView()
+        
+        tabView.frame = self.tabBar.bounds
+        
+        tabView.delegate = self
+        
+        return tabView
+    
+    }()
+    
     /*
     // MARK: - Navigation
 
@@ -87,5 +113,15 @@ class VVMainViewController: UITabBarController {
         // Pass the selected object to the new view controller.
     }
     */
+
+}
+
+extension VVMainViewController: VVMainTabViewDelegate {
+    
+    func tabBarDidSelector(fromSelectorButton from: Int, toSelectorButton to: Int, title: String) {
+        
+        self.selectedIndex = to
+        
+    }
 
 }

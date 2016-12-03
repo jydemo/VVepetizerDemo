@@ -15,5 +15,11 @@ extension UIFont {
         return UIFont(name: "Lobster 1.4", size: size)!
     
     }
+    
+    class func customFont_FZLTXIHJW(fontSize size: CGFloat = UIConstant.UI_FONT_12 ) -> UIFont {
+        
+        return UIFont(name: "FZLanTingHeiS-L-GB", size: size)!
+    
+    }
 
 }

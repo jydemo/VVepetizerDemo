@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C18EA8F1DF257FB00977B95 /* VVMainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EA8E1DF257FB00977B95 /* VVMainTabView.swift */; };
+		5C18EA921DF2588500977B95 /* VVMainTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C18EA911DF2588500977B95 /* VVMainTabView.xib */; };
 		5CB60E1D1DF15EE200C8C5EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E1C1DF15EE200C8C5EC /* AppDelegate.swift */; };
 		5CB60E1F1DF15EE200C8C5EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E1E1DF15EE200C8C5EC /* ViewController.swift */; };
 		5CB60E221DF15EE200C8C5EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB60E201DF15EE200C8C5EC /* Main.storyboard */; };
@@ -24,9 +26,16 @@
 		5CB60E4D1DF1709200C8C5EC /* VVConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E4C1DF1709200C8C5EC /* VVConstant.swift */; };
 		5CB60E4F1DF175C500C8C5EC /* VVVideoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E4E1DF175C500C8C5EC /* VVVideoDetailController.swift */; };
 		5CB60E521DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E511DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift */; };
+		6FC3A859D373A3E5473B0152 /* Pods_VVepetizerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BEE7856A13479F4C40739F /* Pods_VVepetizerDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1770674073A884197F3A7827 /* Pods-VVepetizerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVepetizerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VVepetizerDemo/Pods-VVepetizerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5C18EA8E1DF257FB00977B95 /* VVMainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVMainTabView.swift; sourceTree = "<group>"; };
+		5C18EA911DF2588500977B95 /* VVMainTabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VVMainTabView.xib; sourceTree = "<group>"; };
+		5C18EA941DF25F9900977B95 /* FZLTXIHJW--GB1-0.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZLTXIHJW--GB1-0.TTF"; sourceTree = "<group>"; };
+		5C18EA951DF25F9900977B95 /* FZLTZCHJW--GB1-0.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZLTZCHJW--GB1-0.TTF"; sourceTree = "<group>"; };
+		5C18EA961DF25F9900977B95 /* Lobster 1.4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster 1.4.otf"; sourceTree = "<group>"; };
 		5CB60E191DF15EE200C8C5EC /* VVepetizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVepetizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB60E1C1DF15EE200C8C5EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CB60E1E1DF15EE200C8C5EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +55,8 @@
 		5CB60E4C1DF1709200C8C5EC /* VVConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVConstant.swift; sourceTree = "<group>"; };
 		5CB60E4E1DF175C500C8C5EC /* VVVideoDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVVideoDetailController.swift; sourceTree = "<group>"; };
 		5CB60E511DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVVideoDetailPushTransition.swift; sourceTree = "<group>"; };
+		6D3F11274DEC5D7BFF6991D6 /* Pods-VVepetizerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVepetizerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVepetizerDemo/Pods-VVepetizerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F7BEE7856A13479F4C40739F /* Pods_VVepetizerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VVepetizerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,17 +64,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC3A859D373A3E5473B0152 /* Pods_VVepetizerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C18EA901DF2583200977B95 /* VVMainTabView */ = {
+			isa = PBXGroup;
+			children = (
+				5C18EA8E1DF257FB00977B95 /* VVMainTabView.swift */,
+				5C18EA911DF2588500977B95 /* VVMainTabView.xib */,
+			);
+			name = VVMainTabView;
+			sourceTree = "<group>";
+		};
+		5C18EA931DF25F5200977B95 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5C18EA941DF25F9900977B95 /* FZLTXIHJW--GB1-0.TTF */,
+				5C18EA951DF25F9900977B95 /* FZLTZCHJW--GB1-0.TTF */,
+				5C18EA961DF25F9900977B95 /* Lobster 1.4.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
 		5CB60E101DF15EE200C8C5EC = {
 			isa = PBXGroup;
 			children = (
 				5CB60E1B1DF15EE200C8C5EC /* VVepetizerDemo */,
 				5CB60E1A1DF15EE200C8C5EC /* Products */,
+				FCCA6FD17490DD98AC3AEFAB /* Pods */,
+				C629D386BA7E0029F838C8C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +129,7 @@
 		5CB60E2E1DF15EF300C8C5EC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5C18EA901DF2583200977B95 /* VVMainTabView */,
 				5CB60E3D1DF16D7000C8C5EC /* ViedeoController */,
 				5CB60E3C1DF16D6200C8C5EC /* PopularViewController */,
 				5CB60E3B1DF16D5500C8C5EC /* PlayViewController */,
@@ -199,9 +233,27 @@
 		5CB60E501DF1760E00C8C5EC /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				5C18EA931DF25F5200977B95 /* Font */,
 				5CB60E511DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift */,
 			);
 			name = Other;
+			sourceTree = "<group>";
+		};
+		C629D386BA7E0029F838C8C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7BEE7856A13479F4C40739F /* Pods_VVepetizerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCCA6FD17490DD98AC3AEFAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1770674073A884197F3A7827 /* Pods-VVepetizerDemo.debug.xcconfig */,
+				6D3F11274DEC5D7BFF6991D6 /* Pods-VVepetizerDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CB60E2B1DF15EE200C8C5EC /* Build configuration list for PBXNativeTarget "VVepetizerDemo" */;
 			buildPhases = (
+				5291D57CBBFA4C25B4F6B090 /* [CP] Check Pods Manifest.lock */,
 				5CB60E151DF15EE200C8C5EC /* Sources */,
 				5CB60E161DF15EE200C8C5EC /* Frameworks */,
 				5CB60E171DF15EE200C8C5EC /* Resources */,
+				A99F781B72C31226DEFE0494 /* [CP] Embed Pods Frameworks */,
+				70E163B0F00F85BB5AF2E8A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,12 +321,61 @@
 			files = (
 				5CB60E271DF15EE200C8C5EC /* LaunchScreen.storyboard in Resources */,
 				5CB60E241DF15EE200C8C5EC /* Assets.xcassets in Resources */,
+				5C18EA921DF2588500977B95 /* VVMainTabView.xib in Resources */,
 				5CB60E221DF15EE200C8C5EC /* Main.storyboard in Resources */,
 				5CB60E351DF161DA00C8C5EC /* VVLaunchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5291D57CBBFA4C25B4F6B090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70E163B0F00F85BB5AF2E8A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VVepetizerDemo/Pods-VVepetizerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99F781B72C31226DEFE0494 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VVepetizerDemo/Pods-VVepetizerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CB60E151DF15EE200C8C5EC /* Sources */ = {
@@ -287,6 +391,7 @@
 				5CB60E4F1DF175C500C8C5EC /* VVVideoDetailController.swift in Sources */,
 				5CB60E301DF15F1300C8C5EC /* VVMainViewController.swift in Sources */,
 				5CB60E1D1DF15EE200C8C5EC /* AppDelegate.swift in Sources */,
+				5C18EA8F1DF257FB00977B95 /* VVMainTabView.swift in Sources */,
 				5CB60E331DF161C000C8C5EC /* VVLaunchView.swift in Sources */,
 				5CB60E451DF16E3B00C8C5EC /* VVPopularController.swift in Sources */,
 				5CB60E471DF16E9F00C8C5EC /* VVNavigationController.swift in Sources */,
@@ -409,6 +514,7 @@
 		};
 		5CB60E2C1DF15EE200C8C5EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1770674073A884197F3A7827 /* Pods-VVepetizerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JE8CSGTB5D;
@@ -422,6 +528,7 @@
 		};
 		5CB60E2D1DF15EE200C8C5EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3F11274DEC5D7BFF6991D6 /* Pods-VVepetizerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JE8CSGTB5D;
@@ -452,6 +559,7 @@
 				5CB60E2D1DF15EE200C8C5EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
