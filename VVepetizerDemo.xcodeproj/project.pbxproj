@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		5C18EA8F1DF257FB00977B95 /* VVMainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EA8E1DF257FB00977B95 /* VVMainTabView.swift */; };
 		5C18EA921DF2588500977B95 /* VVMainTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C18EA911DF2588500977B95 /* VVMainTabView.xib */; };
+		5C18EA991DF2750C00977B95 /* VVCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EA981DF2750C00977B95 /* VVCollectionViewController.swift */; };
+		5C18EA9B1DF2753500977B95 /* VVCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EA9A1DF2753500977B95 /* VVCollectionView.swift */; };
+		5C18EA9D1DF2777D00977B95 /* VVChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EA9C1DF2777D00977B95 /* VVChoiceCell.swift */; };
+		5C18EA9F1DF2952800977B95 /* Reuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EA9E1DF2952800977B95 /* Reuseable.swift */; };
+		5C18EAA11DF2988F00977B95 /* VVChoiceHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EAA01DF2988F00977B95 /* VVChoiceHeaderView.swift */; };
+		5C18EAA31DF29A5200977B95 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EAA21DF29A5200977B95 /* UIView+Frame.swift */; };
+		5C18EAA61DF29C2A00977B95 /* VVChoiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EAA51DF29C2A00977B95 /* VVChoiceModel.swift */; };
+		5C18EAA81DF29D3200977B95 /* String+VV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EAA71DF29D3200977B95 /* String+VV.swift */; };
+		5C3B3AF91DF4097A001CF8B3 /* VVMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B3AF81DF4097A001CF8B3 /* VVMenuButton.swift */; };
+		5C3B3AFB1DF40E61001CF8B3 /* UIScrollerView+VV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B3AFA1DF40E61001CF8B3 /* UIScrollerView+VV.swift */; };
+		5C3B3AFE1DF40F14001CF8B3 /* VVPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B3AFD1DF40F14001CF8B3 /* VVPullToRefreshView.swift */; };
+		5C7561EE1DF3A35800F8816F /* VVLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7561ED1DF3A35800F8816F /* VVLoaderView.swift */; };
+		5C7561F01DF3A7CF00F8816F /* LoadingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7561EF1DF3A7CF00F8816F /* LoadingPresenter.swift */; };
 		5CB60E1D1DF15EE200C8C5EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E1C1DF15EE200C8C5EC /* AppDelegate.swift */; };
 		5CB60E1F1DF15EE200C8C5EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E1E1DF15EE200C8C5EC /* ViewController.swift */; };
 		5CB60E221DF15EE200C8C5EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB60E201DF15EE200C8C5EC /* Main.storyboard */; };
@@ -26,6 +39,8 @@
 		5CB60E4D1DF1709200C8C5EC /* VVConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E4C1DF1709200C8C5EC /* VVConstant.swift */; };
 		5CB60E4F1DF175C500C8C5EC /* VVVideoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E4E1DF175C500C8C5EC /* VVVideoDetailController.swift */; };
 		5CB60E521DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E511DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift */; };
+		5CF8DF3A1DF3B258007B82BC /* VVAPIHeaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF8DF391DF3B258007B82BC /* VVAPIHeaper.swift */; };
+		5CF8DF3C1DF3B2EE007B82BC /* Date+VV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF8DF3B1DF3B2EE007B82BC /* Date+VV.swift */; };
 		6FC3A859D373A3E5473B0152 /* Pods_VVepetizerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BEE7856A13479F4C40739F /* Pods_VVepetizerDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +51,19 @@
 		5C18EA941DF25F9900977B95 /* FZLTXIHJW--GB1-0.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZLTXIHJW--GB1-0.TTF"; sourceTree = "<group>"; };
 		5C18EA951DF25F9900977B95 /* FZLTZCHJW--GB1-0.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZLTZCHJW--GB1-0.TTF"; sourceTree = "<group>"; };
 		5C18EA961DF25F9900977B95 /* Lobster 1.4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster 1.4.otf"; sourceTree = "<group>"; };
+		5C18EA981DF2750C00977B95 /* VVCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVCollectionViewController.swift; sourceTree = "<group>"; };
+		5C18EA9A1DF2753500977B95 /* VVCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVCollectionView.swift; sourceTree = "<group>"; };
+		5C18EA9C1DF2777D00977B95 /* VVChoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVChoiceCell.swift; sourceTree = "<group>"; };
+		5C18EA9E1DF2952800977B95 /* Reuseable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reuseable.swift; sourceTree = "<group>"; };
+		5C18EAA01DF2988F00977B95 /* VVChoiceHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVChoiceHeaderView.swift; sourceTree = "<group>"; };
+		5C18EAA21DF29A5200977B95 /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
+		5C18EAA51DF29C2A00977B95 /* VVChoiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVChoiceModel.swift; sourceTree = "<group>"; };
+		5C18EAA71DF29D3200977B95 /* String+VV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+VV.swift"; sourceTree = "<group>"; };
+		5C3B3AF81DF4097A001CF8B3 /* VVMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVMenuButton.swift; sourceTree = "<group>"; };
+		5C3B3AFA1DF40E61001CF8B3 /* UIScrollerView+VV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollerView+VV.swift"; sourceTree = "<group>"; };
+		5C3B3AFD1DF40F14001CF8B3 /* VVPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVPullToRefreshView.swift; sourceTree = "<group>"; };
+		5C7561ED1DF3A35800F8816F /* VVLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVLoaderView.swift; sourceTree = "<group>"; };
+		5C7561EF1DF3A7CF00F8816F /* LoadingPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingPresenter.swift; sourceTree = "<group>"; };
 		5CB60E191DF15EE200C8C5EC /* VVepetizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVepetizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB60E1C1DF15EE200C8C5EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CB60E1E1DF15EE200C8C5EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +83,8 @@
 		5CB60E4C1DF1709200C8C5EC /* VVConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVConstant.swift; sourceTree = "<group>"; };
 		5CB60E4E1DF175C500C8C5EC /* VVVideoDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVVideoDetailController.swift; sourceTree = "<group>"; };
 		5CB60E511DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVVideoDetailPushTransition.swift; sourceTree = "<group>"; };
+		5CF8DF391DF3B258007B82BC /* VVAPIHeaper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVAPIHeaper.swift; sourceTree = "<group>"; };
+		5CF8DF3B1DF3B2EE007B82BC /* Date+VV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+VV.swift"; sourceTree = "<group>"; };
 		6D3F11274DEC5D7BFF6991D6 /* Pods-VVepetizerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVepetizerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVepetizerDemo/Pods-VVepetizerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F7BEE7856A13479F4C40739F /* Pods_VVepetizerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VVepetizerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,6 +120,38 @@
 			name = Font;
 			sourceTree = "<group>";
 		};
+		5C18EA971DF274EA00977B95 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5C18EA981DF2750C00977B95 /* VVCollectionViewController.swift */,
+				5C18EA9A1DF2753500977B95 /* VVCollectionView.swift */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		5C18EAA41DF29C0E00977B95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C18EAA51DF29C2A00977B95 /* VVChoiceModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5C258E331DF3B02E0041CCA1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5C3B3AFC1DF40EDF001CF8B3 /* PullTorefresh */ = {
+			isa = PBXGroup;
+			children = (
+				5C3B3AFD1DF40F14001CF8B3 /* VVPullToRefreshView.swift */,
+			);
+			name = PullTorefresh;
+			sourceTree = "<group>";
+		};
 		5CB60E101DF15EE200C8C5EC = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +173,8 @@
 		5CB60E1B1DF15EE200C8C5EC /* VVepetizerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5C258E331DF3B02E0041CCA1 /* Source */,
+				5C18EAA41DF29C0E00977B95 /* Model */,
 				5CB60E501DF1760E00C8C5EC /* Other */,
 				5CB60E4B1DF1707700C8C5EC /* Constant */,
 				5CB60E481DF16FD600C8C5EC /* Extensions */,
@@ -146,8 +210,12 @@
 		5CB60E311DF1619C00C8C5EC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5C3B3AFC1DF40EDF001CF8B3 /* PullTorefresh */,
+				5C18EA971DF274EA00977B95 /* CollectionView */,
 				5CB60E321DF161C000C8C5EC /* VVLaunchView.swift */,
 				5CB60E341DF161DA00C8C5EC /* VVLaunchView.xib */,
+				5C7561ED1DF3A35800F8816F /* VVLoaderView.swift */,
+				5C3B3AF81DF4097A001CF8B3 /* VVMenuButton.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -164,6 +232,8 @@
 			isa = PBXGroup;
 			children = (
 				5CB60E401DF16DDE00C8C5EC /* VVChoiceContrller.swift */,
+				5C18EA9C1DF2777D00977B95 /* VVChoiceCell.swift */,
+				5C18EAA01DF2988F00977B95 /* VVChoiceHeaderView.swift */,
 			);
 			name = ChoiceController;
 			sourceTree = "<group>";
@@ -218,6 +288,12 @@
 			isa = PBXGroup;
 			children = (
 				5CB60E491DF16FF300C8C5EC /* UIFont+VV.swift */,
+				5C18EA9E1DF2952800977B95 /* Reuseable.swift */,
+				5C18EAA21DF29A5200977B95 /* UIView+Frame.swift */,
+				5C18EAA71DF29D3200977B95 /* String+VV.swift */,
+				5C7561EF1DF3A7CF00F8816F /* LoadingPresenter.swift */,
+				5CF8DF3B1DF3B2EE007B82BC /* Date+VV.swift */,
+				5C3B3AFA1DF40E61001CF8B3 /* UIScrollerView+VV.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -226,6 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				5CB60E4C1DF1709200C8C5EC /* VVConstant.swift */,
+				5CF8DF391DF3B258007B82BC /* VVAPIHeaper.swift */,
 			);
 			name = Constant;
 			sourceTree = "<group>";
@@ -382,20 +459,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C18EAA81DF29D3200977B95 /* String+VV.swift in Sources */,
+				5C7561EE1DF3A35800F8816F /* VVLoaderView.swift in Sources */,
 				5CB60E4A1DF16FF300C8C5EC /* UIFont+VV.swift in Sources */,
 				5CB60E4D1DF1709200C8C5EC /* VVConstant.swift in Sources */,
+				5C18EA991DF2750C00977B95 /* VVCollectionViewController.swift in Sources */,
+				5C3B3AF91DF4097A001CF8B3 /* VVMenuButton.swift in Sources */,
+				5CF8DF3A1DF3B258007B82BC /* VVAPIHeaper.swift in Sources */,
 				5CB60E3F1DF16DA600C8C5EC /* VVBaseViewController.swift in Sources */,
+				5C18EA9B1DF2753500977B95 /* VVCollectionView.swift in Sources */,
 				5CB60E1F1DF15EE200C8C5EC /* ViewController.swift in Sources */,
+				5CF8DF3C1DF3B2EE007B82BC /* Date+VV.swift in Sources */,
 				5CB60E431DF16E1D00C8C5EC /* VVDiscoverController.swift in Sources */,
+				5C3B3AFE1DF40F14001CF8B3 /* VVPullToRefreshView.swift in Sources */,
+				5C3B3AFB1DF40E61001CF8B3 /* UIScrollerView+VV.swift in Sources */,
+				5C18EAA61DF29C2A00977B95 /* VVChoiceModel.swift in Sources */,
+				5C18EA9D1DF2777D00977B95 /* VVChoiceCell.swift in Sources */,
 				5CB60E411DF16DDE00C8C5EC /* VVChoiceContrller.swift in Sources */,
 				5CB60E4F1DF175C500C8C5EC /* VVVideoDetailController.swift in Sources */,
 				5CB60E301DF15F1300C8C5EC /* VVMainViewController.swift in Sources */,
 				5CB60E1D1DF15EE200C8C5EC /* AppDelegate.swift in Sources */,
+				5C18EA9F1DF2952800977B95 /* Reuseable.swift in Sources */,
+				5C18EAA11DF2988F00977B95 /* VVChoiceHeaderView.swift in Sources */,
 				5C18EA8F1DF257FB00977B95 /* VVMainTabView.swift in Sources */,
 				5CB60E331DF161C000C8C5EC /* VVLaunchView.swift in Sources */,
+				5C18EAA31DF29A5200977B95 /* UIView+Frame.swift in Sources */,
 				5CB60E451DF16E3B00C8C5EC /* VVPopularController.swift in Sources */,
 				5CB60E471DF16E9F00C8C5EC /* VVNavigationController.swift in Sources */,
 				5CB60E521DF1762F00C8C5EC /* VVVideoDetailPushTransition.swift in Sources */,
+				5C7561F01DF3A7CF00F8816F /* LoadingPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -57,7 +57,7 @@ class VVMainViewController: UITabBarController {
     
     fileprivate func setChildController(vc: UIViewController) {
         
-        vc.title = "VVEpetizer"
+        //vc.title = "VVEpetizer"
         
         self.addChildViewController(VVNavigationController(rootViewController: vc))
         

@@ -14,6 +14,8 @@ class VVPopularController: VVBaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.title = "热门排行"
     }
 
     override func didReceiveMemoryWarning() {
