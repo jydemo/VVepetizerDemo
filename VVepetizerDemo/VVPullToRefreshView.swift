@@ -39,7 +39,7 @@ class VVPullToRefreshView: UIView {
         
         super.init(frame: frame)
         
-        loadView = VVLoaderView(frame: CGRect(x: 0, y: 0, width: self.height, height: self.height))
+        loadView = VVLoaderView(frame: CGRect(x: 0, y: 0, width: self.width, height: self.height))
         
         loadView.center = self.center
         
@@ -52,8 +52,6 @@ class VVPullToRefreshView: UIView {
         super.willMove(toSuperview: newSuperview)
         
         if (self.superview != nil) {
-            
-            //self.superview?.removeObserver(self, forKeyPath: refreshContentOffset as String, context: nil)
             
             self.superview?.removeObserver(self, forKeyPath: refreshContentOffset as String, context: nil)
         
@@ -157,13 +155,17 @@ class VVPullToRefreshView: UIView {
             }
             
             switch self.state {
+                
             case .nomal:
+                
                 loadView.stopLoadAnimation()
                 
             case .pulling:
                 
                 break
+                
             case .refreshing:
+                
                 loadView.startLoadingAnimation()
                 
                 if let callBack = beginRefreshingCallBack {
@@ -179,6 +181,131 @@ class VVPullToRefreshView: UIView {
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+
+}
+
+
+class VVPullToRefreshHeaderView: VVPullToRefreshView {
+    
+    class func headerView() -> VVPullToRefreshHeaderView {
+    
+        return VVPullToRefreshHeaderView(frame: CGRect(x: 0, y: 0, width: UIConstant.SCREEN_WIDTH, height: pullToRefreshHeight))
+        
+    
+    }
+    
+    override func willMove(toSuperview newSuperview: UIView?) {
+        
+        super.willMove(toSuperview: newSuperview)
+        
+        var rect: CGRect = self.frame
+        
+        rect.origin.y = -pullToRefreshHeight
+        
+        self.frame = rect
+        
+    }
+    
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        
+        guard self.state != .refreshing else {
+        
+            return
+            
+        }
+        
+        guard refreshContentOffset == keyPath else {
+        
+            return
+        
+        }
+        
+        let currentOffsetY: CGFloat = self.scrollView.contentOffset.y + UIConstant.UI_NAV_HEIGHT
+        
+        if (currentOffsetY) >= 0 {
+            
+            return
+        
+        }
+        
+        if self.scrollView.isDragging {
+        
+            let happendOffsetY = fabs(currentOffsetY)
+            
+            if state == .nomal && happendOffsetY > pullToRefreshHeight {
+                
+                state = .pulling
+            
+            } else if state == .pulling && happendOffsetY <= pullToRefreshHeight {
+                
+                state = .nomal
+            
+            } else if state == .nomal && happendOffsetY < pullToRefreshHeight {
+            
+                state = .nomal
+            }
+        
+        } else if state == .pulling {
+            
+            state = .refreshing
+        
+        }
+    }
+    
+    override var state: PullToRefreshViewState {
+        
+        willSet {
+            
+            oldState = state
+        
+        }
+        
+        didSet {
+            
+            switch state {
+            case .nomal:
+                
+                if PullToRefreshViewState.refreshing == oldState {
+                    
+                    UIView.animate(withDuration: animationDuration, animations: { 
+                        
+                        var contentInset: UIEdgeInsets = self.scrollView.contentInset
+                        
+                        contentInset.top = self.scrollViewOriginalInset.top + UIConstant.UI_NAV_HEIGHT
+                        
+                        self.scrollView.contentInset = contentInset
+                    })
+                
+                }
+                
+            case .pulling:
+                
+                break
+                
+            case .refreshing:
+                
+                UIView.animate(withDuration: animationDuration, animations: { 
+                    
+                    let top: CGFloat = self.scrollViewOriginalInset.top + self.frame.size.height
+                    
+                    var inset: UIEdgeInsets = self.scrollView.contentInset
+                    
+                    inset.top = top + UIConstant.UI_NAV_HEIGHT
+                    
+                    self.scrollView.contentInset = inset
+                    
+                    
+                    var offset: CGPoint = self.scrollView.contentOffset
+                    
+                    offset.y = -top - UIConstant.UI_NAV_HEIGHT
+                    
+                    self.scrollView.contentOffset = offset
+                })
+            }
+        
+        }
+    
     }
 
 }

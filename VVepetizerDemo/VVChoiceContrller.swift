@@ -28,6 +28,12 @@ class VVChoiceContrller: VVBaseViewController, LoadingPresenter, MenuPresenter {
         setLoaderViewHidden(hidden: false)
         
         setupMenuButton()
+        
+        collectionView.headerViewPullToRefresh { [unowned self ] in
+            
+            self.getData(api: VVAPIHeaper.API_Choice, params: ["data": Date.getCurrentTimeStamp(), "num": "7"])
+        
+        }
     
     }
     
@@ -65,7 +71,7 @@ class VVChoiceContrller: VVBaseViewController, LoadingPresenter, MenuPresenter {
                     
                     self.issueList = list!
                     
-                    //self.collectionView
+                    self.collectionView.headerEndRefresh()
                 
                 } else {
                     

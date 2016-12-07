@@ -29,4 +29,6 @@ struct UIConstant {
     
     static let UI_FONT_16: CGFloat = 16
     
+    static let UI_NAV_HEIGHT: CGFloat = 64
+    
 }

@@ -12,7 +12,40 @@ extension UIScrollView {
     
     func headerViewPullToRefresh(callBack:(() -> Void)?) {
         
-        let headerView = VVPullToRefreshView.h
+        let headerView: VVPullToRefreshHeaderView = VVPullToRefreshHeaderView.headerView()
+        
+        self.addSubview(headerView)
+        
+        headerView.beginRefreshingCallBack = callBack
+        
+        headerView.state = .nomal
+    }
+    
+    func headerViewBeginRefreshing() {
+        
+        for object: AnyObject in self.subviews {
+            
+            if object is VVPullToRefreshHeaderView {
+                
+                object.beginRefreshing()
+            
+            }
+        
+        }
+    
+    }
+    
+    func headerEndRefresh() {
+        
+        for object: AnyObject in self.subviews {
+            
+            if object is VVPullToRefreshHeaderView {
+                
+                object.endRefreshing()
+            
+            }
+        
+        }
     
     }
 
