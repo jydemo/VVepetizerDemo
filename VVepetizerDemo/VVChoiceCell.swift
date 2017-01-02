@@ -46,7 +46,7 @@ class VVChoiceCell: UICollectionViewCell, Reuseable {
             
             make.height.equalTo(20)
             
-            make.centerY.equalTo(self.contentView.center.y).offset(-10)
+            make.center.equalTo(self.contentView.center)
             
         }
         
@@ -56,7 +56,7 @@ class VVChoiceCell: UICollectionViewCell, Reuseable {
             
             make.height.equalTo(20)
             
-            make.centerY.equalTo(self.contentView.center).offset(10)
+            make.top.equalTo(self.titleLabel).offset(15)
         }
         
         indexView.snp.makeConstraints {[unowned self] (make) in

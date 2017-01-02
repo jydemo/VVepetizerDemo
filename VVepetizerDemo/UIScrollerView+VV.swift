@@ -10,10 +10,10 @@ import UIKit
 
 extension UIScrollView {
     
-    func headerViewPullToRefresh(callBack:(() -> Void)?) {
+    /*func headerViewPullToRefresh(callBack:(() -> Void)?) {
         
-        let headerView = VVPullToRefreshView.h
+        let headerView = VVPullToRefreshView.headerView
     
-    }
+    }*/
 
 }

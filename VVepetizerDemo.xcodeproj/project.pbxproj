@@ -17,11 +17,16 @@
 		5C18EAA31DF29A5200977B95 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EAA21DF29A5200977B95 /* UIView+Frame.swift */; };
 		5C18EAA61DF29C2A00977B95 /* VVChoiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EAA51DF29C2A00977B95 /* VVChoiceModel.swift */; };
 		5C18EAA81DF29D3200977B95 /* String+VV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18EAA71DF29D3200977B95 /* String+VV.swift */; };
+		5C1E4F381E0E2A4E008C3CC8 /* VVDiscoverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1E4F371E0E2A4E008C3CC8 /* VVDiscoverCell.xib */; };
+		5C1E4F401E0E4393008C3CC8 /* VVVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E4F3E1E0E4393008C3CC8 /* VVVideoCell.swift */; };
+		5C1E4F411E0E4393008C3CC8 /* VVVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1E4F3F1E0E4393008C3CC8 /* VVVideoCell.xib */; };
 		5C3B3AF91DF4097A001CF8B3 /* VVMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B3AF81DF4097A001CF8B3 /* VVMenuButton.swift */; };
 		5C3B3AFB1DF40E61001CF8B3 /* UIScrollerView+VV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B3AFA1DF40E61001CF8B3 /* UIScrollerView+VV.swift */; };
 		5C3B3AFE1DF40F14001CF8B3 /* VVPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B3AFD1DF40F14001CF8B3 /* VVPullToRefreshView.swift */; };
 		5C7561EE1DF3A35800F8816F /* VVLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7561ED1DF3A35800F8816F /* VVLoaderView.swift */; };
 		5C7561F01DF3A7CF00F8816F /* LoadingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7561EF1DF3A7CF00F8816F /* LoadingPresenter.swift */; };
+		5C9965C61E0E03AB005AC943 /* VVDiscoverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9965C51E0E03AB005AC943 /* VVDiscoverModel.swift */; };
+		5C9965C81E0E0E0E005AC943 /* VVDiscoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9965C71E0E0E0E005AC943 /* VVDiscoverCell.swift */; };
 		5CB60E1D1DF15EE200C8C5EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E1C1DF15EE200C8C5EC /* AppDelegate.swift */; };
 		5CB60E1F1DF15EE200C8C5EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB60E1E1DF15EE200C8C5EC /* ViewController.swift */; };
 		5CB60E221DF15EE200C8C5EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB60E201DF15EE200C8C5EC /* Main.storyboard */; };
@@ -59,11 +64,16 @@
 		5C18EAA21DF29A5200977B95 /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		5C18EAA51DF29C2A00977B95 /* VVChoiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVChoiceModel.swift; sourceTree = "<group>"; };
 		5C18EAA71DF29D3200977B95 /* String+VV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+VV.swift"; sourceTree = "<group>"; };
+		5C1E4F371E0E2A4E008C3CC8 /* VVDiscoverCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VVDiscoverCell.xib; sourceTree = "<group>"; };
+		5C1E4F3E1E0E4393008C3CC8 /* VVVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVVideoCell.swift; sourceTree = "<group>"; };
+		5C1E4F3F1E0E4393008C3CC8 /* VVVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VVVideoCell.xib; sourceTree = "<group>"; };
 		5C3B3AF81DF4097A001CF8B3 /* VVMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVMenuButton.swift; sourceTree = "<group>"; };
 		5C3B3AFA1DF40E61001CF8B3 /* UIScrollerView+VV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollerView+VV.swift"; sourceTree = "<group>"; };
 		5C3B3AFD1DF40F14001CF8B3 /* VVPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVPullToRefreshView.swift; sourceTree = "<group>"; };
 		5C7561ED1DF3A35800F8816F /* VVLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVLoaderView.swift; sourceTree = "<group>"; };
 		5C7561EF1DF3A7CF00F8816F /* LoadingPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingPresenter.swift; sourceTree = "<group>"; };
+		5C9965C51E0E03AB005AC943 /* VVDiscoverModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVDiscoverModel.swift; sourceTree = "<group>"; };
+		5C9965C71E0E0E0E005AC943 /* VVDiscoverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVDiscoverCell.swift; sourceTree = "<group>"; };
 		5CB60E191DF15EE200C8C5EC /* VVepetizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVepetizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB60E1C1DF15EE200C8C5EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CB60E1E1DF15EE200C8C5EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,8 +143,61 @@
 			isa = PBXGroup;
 			children = (
 				5C18EAA51DF29C2A00977B95 /* VVChoiceModel.swift */,
+				5C9965C51E0E03AB005AC943 /* VVDiscoverModel.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		5C1E4F361E0E2A33008C3CC8 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				5C9965C71E0E0E0E005AC943 /* VVDiscoverCell.swift */,
+				5C1E4F371E0E2A4E008C3CC8 /* VVDiscoverCell.xib */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		5C1E4F391E0E432F008C3CC8 /* Choice */ = {
+			isa = PBXGroup;
+			children = (
+				5C18EA9C1DF2777D00977B95 /* VVChoiceCell.swift */,
+				5C18EAA01DF2988F00977B95 /* VVChoiceHeaderView.swift */,
+			);
+			name = Choice;
+			sourceTree = "<group>";
+		};
+		5C1E4F3A1E0E4354008C3CC8 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				5CB60E321DF161C000C8C5EC /* VVLaunchView.swift */,
+				5CB60E341DF161DA00C8C5EC /* VVLaunchView.xib */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		5C1E4F3B1E0E4366008C3CC8 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				5C7561ED1DF3A35800F8816F /* VVLoaderView.swift */,
+			);
+			name = Loader;
+			sourceTree = "<group>";
+		};
+		5C1E4F3C1E0E4371008C3CC8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5C3B3AF81DF4097A001CF8B3 /* VVMenuButton.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		5C1E4F3D1E0E437B008C3CC8 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				5C1E4F3E1E0E4393008C3CC8 /* VVVideoCell.swift */,
+				5C1E4F3F1E0E4393008C3CC8 /* VVVideoCell.xib */,
+			);
+			name = Video;
 			sourceTree = "<group>";
 		};
 		5C258E331DF3B02E0041CCA1 /* Source */ = {
@@ -210,12 +273,14 @@
 		5CB60E311DF1619C00C8C5EC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5C1E4F3D1E0E437B008C3CC8 /* Video */,
+				5C1E4F3C1E0E4371008C3CC8 /* Menu */,
+				5C1E4F3B1E0E4366008C3CC8 /* Loader */,
+				5C1E4F3A1E0E4354008C3CC8 /* Launch */,
+				5C1E4F391E0E432F008C3CC8 /* Choice */,
+				5C1E4F361E0E2A33008C3CC8 /* Discover */,
 				5C3B3AFC1DF40EDF001CF8B3 /* PullTorefresh */,
 				5C18EA971DF274EA00977B95 /* CollectionView */,
-				5CB60E321DF161C000C8C5EC /* VVLaunchView.swift */,
-				5CB60E341DF161DA00C8C5EC /* VVLaunchView.xib */,
-				5C7561ED1DF3A35800F8816F /* VVLoaderView.swift */,
-				5C3B3AF81DF4097A001CF8B3 /* VVMenuButton.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -232,8 +297,6 @@
 			isa = PBXGroup;
 			children = (
 				5CB60E401DF16DDE00C8C5EC /* VVChoiceContrller.swift */,
-				5C18EA9C1DF2777D00977B95 /* VVChoiceCell.swift */,
-				5C18EAA01DF2988F00977B95 /* VVChoiceHeaderView.swift */,
 			);
 			name = ChoiceController;
 			sourceTree = "<group>";
@@ -398,8 +461,10 @@
 			files = (
 				5CB60E271DF15EE200C8C5EC /* LaunchScreen.storyboard in Resources */,
 				5CB60E241DF15EE200C8C5EC /* Assets.xcassets in Resources */,
+				5C1E4F411E0E4393008C3CC8 /* VVVideoCell.xib in Resources */,
 				5C18EA921DF2588500977B95 /* VVMainTabView.xib in Resources */,
 				5CB60E221DF15EE200C8C5EC /* Main.storyboard in Resources */,
+				5C1E4F381E0E2A4E008C3CC8 /* VVDiscoverCell.xib in Resources */,
 				5CB60E351DF161DA00C8C5EC /* VVLaunchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,7 +539,10 @@
 				5C3B3AFE1DF40F14001CF8B3 /* VVPullToRefreshView.swift in Sources */,
 				5C3B3AFB1DF40E61001CF8B3 /* UIScrollerView+VV.swift in Sources */,
 				5C18EAA61DF29C2A00977B95 /* VVChoiceModel.swift in Sources */,
+				5C1E4F401E0E4393008C3CC8 /* VVVideoCell.swift in Sources */,
+				5C9965C81E0E0E0E005AC943 /* VVDiscoverCell.swift in Sources */,
 				5C18EA9D1DF2777D00977B95 /* VVChoiceCell.swift in Sources */,
+				5C9965C61E0E03AB005AC943 /* VVDiscoverModel.swift in Sources */,
 				5CB60E411DF16DDE00C8C5EC /* VVChoiceContrller.swift in Sources */,
 				5CB60E4F1DF175C500C8C5EC /* VVVideoDetailController.swift in Sources */,
 				5CB60E301DF15F1300C8C5EC /* VVMainViewController.swift in Sources */,

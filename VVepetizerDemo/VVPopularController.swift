@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VVPopularController: VVBaseViewController {
+class VVPopularController: VVBaseViewController, LoadingPresenter {
 
     override func viewDidLoad() {
         super.viewDidLoad()

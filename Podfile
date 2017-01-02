@@ -15,5 +15,4 @@ target 'VVepetizerDemo' do
 	pod 'JSAnimatedImagesView'
 	pod 'Kingfisher'
 
-
 end
