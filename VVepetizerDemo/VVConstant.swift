@@ -24,9 +24,15 @@ struct UIConstant {
     
     static let UI_MARGIN_5: CGFloat = 5
     static let UI_MARGIN_10: CGFloat = 10
+    static let UI_MARGIN_15: CGFloat = 15
+    static let UI_MARGIN_20: CGFloat = 20
+    static let UI_CHARTS_HEIGHT: CGFloat = 50
+    static let UI_TAB_HEIGHT : CGFloat = 49
     
     static let UI_FONT_12: CGFloat = 12
     
     static let UI_FONT_16: CGFloat = 16
+    
+    static let UI_NAV_HEIGHT: CGFloat = 64
     
 }

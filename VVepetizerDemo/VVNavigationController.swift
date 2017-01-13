@@ -31,6 +31,63 @@ class VVNavigationController: UINavigationController, UIGestureRecognizerDelegat
         
         navigationBar.barStyle = .default
     }
+    
+    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        if responds(to: #selector(getter: UINavigationController.interactivePopGestureRecognizer)) && animated {
+            
+            interactivePopGestureRecognizer?.isEnabled = false
+        
+        }
+        
+        super.pushViewController(viewController, animated: animated)
+    }
+    
+    override func popViewController(animated: Bool) -> UIViewController? {
+        return super.popViewController(animated: animated)
+    }
+    
+    override func popToRootViewController(animated: Bool) -> [UIViewController]? {
+        if responds(to: #selector(getter: UINavigationController.interactivePopGestureRecognizer)) && animated {
+            
+            interactivePopGestureRecognizer?.isEnabled = false
+            
+        }
+        
+        return super.popToRootViewController(animated: animated)
+    }
+    
+    override func popToViewController(_ viewController: UIViewController, animated: Bool) -> [UIViewController]? {
+        if responds(to: #selector(getter: UINavigationController.interactivePopGestureRecognizer)) && animated {
+            
+            interactivePopGestureRecognizer?.isEnabled = false
+            
+        }
+        
+        return super.popToViewController(viewController, animated: false)
+    }
+    
+    func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
+        if responds(to: #selector(getter: UINavigationController.interactivePopGestureRecognizer)) && animated {
+            
+            interactivePopGestureRecognizer?.isEnabled = true
+            
+        }
+    }
+    
+    func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+        
+        if gestureRecognizer == interactivePopGestureRecognizer {
+            
+            if self.viewControllers.count < 2 || self.visibleViewController == self.viewControllers[0] {
+                
+                return false
+            
+            }
+        
+        }
+        
+        return true
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

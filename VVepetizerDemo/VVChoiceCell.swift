@@ -145,7 +145,7 @@ class VVChoiceCell: UICollectionViewCell, Reuseable {
     
     }
     
-    fileprivate lazy var bacgroundImageView: UIImageView = {
+     lazy var bacgroundImageView: UIImageView = {
         
         var background: UIImageView = UIImageView()
         
@@ -153,7 +153,7 @@ class VVChoiceCell: UICollectionViewCell, Reuseable {
     
     }()
     
-    fileprivate lazy var coverButton: UIButton = {
+     lazy var coverButton: UIButton = {
         
         var coverButton: UIButton = UIButton()
         
@@ -167,7 +167,7 @@ class VVChoiceCell: UICollectionViewCell, Reuseable {
     
     }()
     
-    fileprivate lazy var titleLabel: UILabel = {
+     lazy var titleLabel: UILabel = {
         
         var titleLabel: UILabel = UILabel()
         
@@ -183,7 +183,7 @@ class VVChoiceCell: UICollectionViewCell, Reuseable {
     
     }()
     
-    fileprivate lazy var  subTitleLabel: UILabel = {
+     lazy var  subTitleLabel: UILabel = {
         
         var subTitleLabel = UILabel()
         
@@ -199,7 +199,7 @@ class VVChoiceCell: UICollectionViewCell, Reuseable {
     
     }()
     
-    fileprivate lazy var topLine: UIView = {
+     lazy var topLine: UIView = {
         
         var topLine = UIView()
         
@@ -209,7 +209,7 @@ class VVChoiceCell: UICollectionViewCell, Reuseable {
     
     }()
     
-    fileprivate lazy var bottomLine: UIView = {
+     lazy var bottomLine: UIView = {
     
         
         var bottomLine = UIView()
@@ -220,7 +220,7 @@ class VVChoiceCell: UICollectionViewCell, Reuseable {
         
     }()
     
-    fileprivate lazy var indexLabel: UILabel = {
+     lazy var indexLabel: UILabel = {
         
         var indexLabel = UILabel()
         
@@ -234,7 +234,7 @@ class VVChoiceCell: UICollectionViewCell, Reuseable {
     
     }()
     
-    fileprivate lazy var indexView: UIView = {
+     lazy var indexView: UIView = {
         
         var indexView: UIView = UIView()
         

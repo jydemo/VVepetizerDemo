@@ -10,6 +10,46 @@ import UIKit
 
 extension UIView {
     
+    public func viewAddTarget(target: AnyObject, action: Selector) {
+        
+        let tap = UITapGestureRecognizer(target: target, action: action)
+        
+        self.isUserInteractionEnabled = true
+        
+        self.addGestureRecognizer(tap)
+    }
+    public var x: CGFloat {
+        
+        get {
+            
+            return self.frame.origin.x
+        }
+        
+        set {
+        
+            var frame = self.frame
+            frame.origin.x = newValue
+            self.frame = frame
+        }
+    
+    }
+    
+    public var y: CGFloat {
+        
+        get {
+            
+            return self.frame.origin.y
+        }
+        
+        set {
+            
+            var frame = self.frame
+            frame.origin.y = newValue
+            self.frame = frame
+        }
+        
+    }
+    
     public var height: CGFloat {
         
         get {
@@ -46,6 +86,23 @@ extension UIView {
             
         }
         
+    }
+    
+    public var size: CGSize {
+        
+        get {
+            
+            return self.frame.size
+        }
+        set {
+        
+            var frame = self.frame
+            
+            frame.size = newValue
+            
+            self.frame = frame
+        }
+    
     }
 
 }

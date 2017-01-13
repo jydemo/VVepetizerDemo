@@ -28,6 +28,12 @@ class VVChoiceContrller: VVBaseViewController, LoadingPresenter, MenuPresenter {
         setLoaderViewHidden(hidden: false)
         
         setupMenuButton()
+        
+        collectionView.headerViewPullToRefresh { [unowned self ] in
+            
+            self.getData(api: VVAPIHeaper.API_Choice, params: ["data": Date.getCurrentTimeStamp(), "num": "7"])
+        
+        }
     
     }
     
@@ -65,7 +71,7 @@ class VVChoiceContrller: VVBaseViewController, LoadingPresenter, MenuPresenter {
                     
                     self.issueList = list!
                     
-                    //self.collectionView
+                    self.collectionView.headerEndRefresh()
                 
                 } else {
                     
@@ -84,7 +90,10 @@ class VVChoiceContrller: VVBaseViewController, LoadingPresenter, MenuPresenter {
     
     @objc fileprivate func menuButtonDidClick() {
         
-        print("daohanglan")
+        let menuController = VVMenuViewController()
+        //menuController.modalPresentationStyle = .custom
+       // menuController.transitioningDelegate = self
+        self.present(menuController, animated: true, completion: nil)
     
     }
     
@@ -109,6 +118,8 @@ class VVChoiceContrller: VVBaseViewController, LoadingPresenter, MenuPresenter {
         return collectionview
     
     }()
+    
+    private lazy var presentationAnimation = GuillotineTransitionAnimation()
 
 }
 
@@ -145,5 +156,12 @@ extension VVChoiceContrller: UICollectionViewDataSource, UICollectionViewDelegat
         
         
     }
+
+}
+extension VVChoiceContrller: UIViewControllerTransitioningDelegate {
+    
+    /*func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        //presentationnima
+    }*/
 
 }

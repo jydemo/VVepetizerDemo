@@ -10,10 +10,43 @@ import UIKit
 
 extension UIScrollView {
     
-    /*func headerViewPullToRefresh(callBack:(() -> Void)?) {
+    func headerViewPullToRefresh(callBack:(() -> Void)?) {
+     
+        let headerView: VVPullToRefreshHeaderView = VVPullToRefreshHeaderView.headerView()
         
-        let headerView = VVPullToRefreshView.headerView
+        self.addSubview(headerView)
+        
+        headerView.beginRefreshingCallBack = callBack
+        
+        headerView.state = .nomal
+    }
     
-    }*/
+    func headerViewBeginRefreshing() {
+        
+        for object: AnyObject in self.subviews {
+            
+            if object is VVPullToRefreshHeaderView {
+                
+                object.beginRefreshing()
+            
+            }
+        
+        }
+    
+    }
+    
+    func headerEndRefresh() {
+        
+        for object: AnyObject in self.subviews {
+            
+            if object is VVPullToRefreshHeaderView {
+                
+                object.endRefreshing()
+            
+            }
+        
+        }
+    
+    }
 
 }

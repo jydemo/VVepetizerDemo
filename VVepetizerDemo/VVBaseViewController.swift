@@ -9,6 +9,8 @@
 import UIKit
 
 class VVBaseViewController: UIViewController {
+    
+    var selectCell: VVChoiceCell!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,7 +51,7 @@ extension VVBaseViewController: UINavigationControllerDelegate {
         
         if operation == .push && toVC is VVVideoDetailController {
         
-            
+            return VVVideoDetailPushTransition()
         }
         
         return nil

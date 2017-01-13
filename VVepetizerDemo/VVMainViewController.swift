@@ -15,7 +15,7 @@ class VVMainViewController: UITabBarController {
 
         // Do any additional setup after loading the view.
         
-        //delegate = self
+        delegate = self
         
         tabBar.addSubview(tabView)
         
@@ -113,6 +113,15 @@ class VVMainViewController: UITabBarController {
         // Pass the selected object to the new view controller.
     }
     */
+
+}
+
+extension VVMainViewController: UITabBarControllerDelegate {
+    
+    func tabBarController(_ tabBarController: UITabBarController, animationControllerForTransitionFrom fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        return VVTabbarTransition()
+    }
 
 }
 
