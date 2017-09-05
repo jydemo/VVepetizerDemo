@@ -18,7 +18,7 @@ class VVMainViewController: UITabBarController {
         delegate = self
         
         tabBar.addSubview(tabView)
-        
+        //设置底部tabbar函数
         addChildVC()
         
         view.addSubview(launchView)
@@ -40,13 +40,13 @@ class VVMainViewController: UITabBarController {
     }()
 
     fileprivate func addChildVC() {
-        
+        //要加到tabbar上的控制器，依此Choice、Discover和Popular
         let choiceController = VVChoiceContrller()
         
         let disoverController  = VVDiscoverController()
         
         let popularController = VVPopularController()
-        
+        //
         setChildController(vc: choiceController)
         
         setChildController(vc: disoverController)
@@ -57,7 +57,7 @@ class VVMainViewController: UITabBarController {
     
     fileprivate func setChildController(vc: UIViewController) {
         
-        //vc.title = "VVEpetizer"
+        //vc.title = "VVEpetizer" 把控制器置于导航控制器之下
         
         self.addChildViewController(VVNavigationController(rootViewController: vc))
         
